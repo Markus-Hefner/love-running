@@ -120,7 +120,7 @@ footer {
 
     #logo {
         font-size: 280%;
-        line-heigth: 75px;
+        line-height: 75px;
         margin: 0 0,5rem;
     }
 
@@ -129,4 +129,13 @@ footer {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
+}
+
+/* Large devices (laptops and desktops,992px and up) */
+@media screen and (min-width: 992px) {
+    /* Header */
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
 }
