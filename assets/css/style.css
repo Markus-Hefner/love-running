@@ -267,22 +267,43 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
 
+    /* Reasons section */
     #benefits {
         display: flex;
-        justify-content: space-around;
+        /* justify-content: space-around;
         align-items: center;
+        -> Code before adjusted to Code Institute's source code (see below) */
+        flex-direction: row;
     }
 
-    #benefits-physical {
+    #benefits > div {
+        flex: 1; /* Added from Code Institute's source code */
+    }
+
+    /* #benefits-physical {
+        order: 1;
+    }
+    -> -> Code before adjusted to Code Institute's source code (the above is not needed) */
+
+    #benefits-mental {
+        /* order: 3;
+        -> Code before adjusted to Code Institute's source code (see below) */
         order: 1;
     }
 
-    #benefits-mental {
-        order: 3;
+    #benefits-image {
+        /* order: 2;
+        -> Code before adjusted to Code Institute's source code (see below) */
+        order: 0;
     }
 
-    #benefits-image {
-        order: 2;
+    /* Next two rules were added after code was adjusted to Code Institute's source code (see below) */
+    #benefits-mental {
+        align-self: flex-start;
+    }
+
+    #benefits-physical {
+        align-self: flex-end;
     }
 
 }
