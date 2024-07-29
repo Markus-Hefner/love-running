@@ -219,14 +219,16 @@ main {
 #signup {
     display: flex;
     background-size: cover;
-    background: url(../images/signup-image.webp) no-repeat center center / cover;
+    background: url(../images/signup-image.webp);
     background-position: 75%;
     flex-grow: 1;
+    padding: 20px 10% auto 10%;
 }
 
 #signup-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
 }
 
 #signup-form h2 {
