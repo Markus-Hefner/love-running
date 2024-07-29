@@ -91,6 +91,7 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+    flex-direction: column;
 }
 
 /* Hero section */
@@ -216,8 +217,9 @@ main {
 
 /* Signup page */
 #signup {
-    background: url(../images/signup-image.webp);
+    display: flex;
     background-size: cover;
+    background: url(../images/signup-image.webp) no-repeat center center / cover;
     background-position: 75%;
     flex-grow: 1;
 }
@@ -232,7 +234,8 @@ main {
 }
 
 .text-input {
-    transparent, color: #fafafa;
+    background-color: transparent;
+    color: #fafafa;
     border: 1px solid #fafafa;
     border-radius: 2px;
 }
