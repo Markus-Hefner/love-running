@@ -351,6 +351,27 @@ main {
     #photos {
         column-count: 3;
     }
+
+    /* Signup */
+    #signup {
+        background-position:;
+        position: ;
+    }
+
+    #signup-form {
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 10%;
+        max-width: 400px;
+    }
+
+    .join-button [
+
+    ]
+
+    .text-input {
+
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
