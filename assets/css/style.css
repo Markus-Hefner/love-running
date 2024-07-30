@@ -354,8 +354,8 @@ main {
 
     /* Signup */
     #signup {
-        background-position:;
-        position: ;
+        background-position: 50%;
+        position: relative;
     }
 
     #signup-form {
@@ -365,12 +365,13 @@ main {
         max-width: 400px;
     }
 
-    .join-button [
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
 
-    ]
-
-    .text-input {
-
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
     }
 }
 
